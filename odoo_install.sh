@@ -146,7 +146,7 @@ fi
 
 echo -e "\n---- Installing FE libraries ----"
 sudo -H pip3 install --upgrade pip setuptools wheel
-sudo -H pip3 install xmlsec==1.3.13 pysimplesoap qrcode html2text pdf417gen pandas==1.1.5 html5lib
+sudo -H pip3 install xmlsec==1.3.13 pysimplesoap qrcode html2text pdf417gen pandas==1.1.5 html5lib pillow==10.4.0
 sudo -H pip3 install lxml==4.5.0
 
 
